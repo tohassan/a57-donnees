@@ -1,4 +1,4 @@
 [core]
     remote = a57-donnees
 ['remote "a57-donnees"']
-    url = https://github.com/tohassan/a57-donnees.git
+    url = https://github.com/tohassan/a57-donnees
