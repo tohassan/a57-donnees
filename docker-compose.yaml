@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        USER: "user01"
+    volumes:
+      - ./:/home/user01/docker-compose-tr-sess
